@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Демонстрация напоминания",
+    "datetime": "01-10-2026 10:00",
+    "reminded_1h": false,
+    "reminded_event": false
+  },
+  {
+    "id": 2,
+    "title": "Короткий перерыв",
+    "datetime": "01-10-2026 12:00",
+    "reminded_1h": false,
+    "reminded_event": false
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "включи музыку": {
+    "action": "media_play_pause",
+    "target": "",
+    "response": "Переключаю воспроизведение музыки, сэр."
+  },
+  "следующий трек": {
+    "action": "media_next",
+    "target": "",
+    "response": "Включаю следующий трек, сэр."
+  },
+  "предыдущий трек": {
+    "action": "media_prev",
+    "target": "",
+    "response": "Включаю предыдущий трек, сэр."
+  },
+  "открой гитхаб": {
+    "action": "open_url",
+    "target": "https://github.com",
+    "response": "Открываю GitHub, сэр."
+  },
+  "открой телеграм": {
+    "action": "open_url",
+    "target": "https://web.telegram.org",
+    "response": "Открываю Telegram, сэр."
+  },
+  "проверь статус": {
+    "action": "say",
+    "target": "",
+    "response": "Все системы функционируют в штатном режиме, сэр."
+  },
+  "открыть хабр": {
+    "action": "open_url",
+    "target": "https://habr.com",
+    "response": "Выполняю команду открыть хабр, сэр."
+  }
+}

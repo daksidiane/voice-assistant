@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment secrets (Zero-Leak Policy)
+.env
+
+# Configuration with local overrides
+config.local.json
+
+# Cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+temp_audio/
+
+# Vosk models
+model/
+*.zip
+
+# PyInstaller / Build
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/

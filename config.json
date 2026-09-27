@@ -1,0 +1,66 @@
+{
+  "assistant": {
+    "name": "Спутник",
+    "wake_words": [
+      "спутник",
+      "ало",
+      "алло",
+      "привет"
+    ],
+    "user_title": "сэр",
+    "user_gender": "male",
+    "commands_timeout_sec": 6,
+    "work_break_hours": 3.0,
+    "greeting_on_start": true
+  },
+  "voice": {
+    "engine": "yandex",
+    "gender": "male",
+    "piper_voice": "ru_RU-ruslan-medium",
+    "edge_voice": "ru-RU-DmitryNeural",
+    "sapi_voice": "Microsoft Pavel",
+    "sapi_voice_index": 2,
+    "rate": "+0%",
+    "volume": "+0%",
+    "yandex_voice": "kirill",
+    "yandex_role": "strict",
+    "yandex_speed": "1.0",
+    "yandex_emotion": "strict"
+  },
+  "stt": {
+    "model_path": "model/vosk-model-small-ru-0.22",
+    "sample_rate": 16000
+  },
+  "info": {
+    "weather_default_city": "Москва",
+    "news_rss_url": "https://ria.ru/export/rss2/archive/index.xml",
+    "exchange_currencies": [
+      "USD",
+      "EUR",
+      "CNY"
+    ]
+  },
+  "ai": {
+    "enabled": true,
+    "provider": "google",
+    "base_url": "https://api.openai.com/v1",
+    "model": "gemini-flash-lite-latest"
+  },
+  "default_apps": {
+    "блокнот": "notepad.exe",
+    "калькулятор": "calc.exe",
+    "проводник": "explorer.exe",
+    "диспетчер задач": "taskmgr.exe",
+    "браузер": "start msedge"
+  },
+  "default_sites": {
+    "ютуб": "https://youtube.com",
+    "ютубе": "https://youtube.com",
+    "гугл": "https://google.com",
+    "яндекс": "https://ya.ru",
+    "вк": "https://vk.com",
+    "вконтакте": "https://vk.com",
+    "почту": "https://mail.ru",
+    "новости": "https://ria.ru"
+  }
+}
